@@ -1,6 +1,6 @@
 # Cool Features in Intune
 ## Locate Device
-- Could be useful for investigations
+- Could be useful...
     - ![image](./screenshots/Screenshot%202024-11-02%20165041.png)
 
 ## Validation Scripts for Custom Compliance
