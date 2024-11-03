@@ -1,0 +1,74 @@
+{
+    "Rules": [
+        {
+            "SettingName": "GlobalSecureAccessAutoUpgradeService",
+            "Operator": "IsEquals",
+            "DataType": "Boolean",
+            "Operand": true,
+            "MoreInfoUrl": "https://example.com/AutoUpgradeService",
+            "RemediationStrings": [
+                {
+                    "Language": "en_US",
+                    "Title": "GlobalSecureAccessAutoUpgradeService must be running.",
+                    "Description": "The GlobalSecureAccessAutoUpgradeService is expected to be running. Please refer to the link for more information."
+                }
+            ]
+        },
+        {
+            "SettingName": "GlobalSecureAccessClient",
+            "Operator": "IsEquals",
+            "DataType": "Boolean",
+            "Operand": true,
+            "MoreInfoUrl": "https://example.com/Client",
+            "RemediationStrings": [
+                {
+                    "Language": "en_US",
+                    "Title": "GlobalSecureAccessClient must be running.",
+                    "Description": "The GlobalSecureAccessClient is expected to be running. Please refer to the link for more information."
+                }
+            ]
+        },
+        {
+            "SettingName": "GlobalSecureAccessManagementService",
+            "Operator": "IsEquals",
+            "DataType": "Boolean",
+            "Operand": true,
+            "MoreInfoUrl": "https://example.com/ManagementService",
+            "RemediationStrings": [
+                {
+                    "Language": "en_US",
+                    "Title": "GlobalSecureAccessManagementService must be running.",
+                    "Description": "The GlobalSecureAccessManagementService is expected to be running. Please refer to the link for more information."
+                }
+            ]
+        },
+        {
+            "SettingName": "GlobalSecureAccessPolicyRetrieverService",
+            "Operator": "IsEquals",
+            "DataType": "Boolean",
+            "Operand": true,
+            "MoreInfoUrl": "https://example.com/PolicyRetrieverService",
+            "RemediationStrings": [
+                {
+                    "Language": "en_US",
+                    "Title": "GlobalSecureAccessPolicyRetrieverService must be running.",
+                    "Description": "The GlobalSecureAccessPolicyRetrieverService is expected to be running. Please refer to the link for more information."
+                }
+            ]
+        },
+        {
+            "SettingName": "GlobalSecureAccessTunnelingService",
+            "Operator": "IsEquals",
+            "DataType": "Boolean",
+            "Operand": true,
+            "MoreInfoUrl": "https://example.com/TunnelingService",
+            "RemediationStrings": [
+                {
+                    "Language": "en_US",
+                    "Title": "GlobalSecureAccessTunnelingService must be running.",
+                    "Description": "The GlobalSecureAccessTunnelingService is expected to be running. Please refer to the link for more information."
+                }
+            ]
+        }
+    ]
+}
